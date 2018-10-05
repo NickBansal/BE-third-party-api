@@ -13,8 +13,15 @@ const spanishNews = () => {
       language: 'en'
       // country: 'us'
     })
+
+    
     .then(response => {
-      return generateTranslate(response.articles[0].content);
+      const title = response.articles[0].title;
+      const content = response.articles[0].content;
+      const body = [title, content]
+      // body.forEach(el => {
+        return generateTranslate(title);
+      // })
     })
 };
 

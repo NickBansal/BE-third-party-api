@@ -10,14 +10,12 @@ const generateTranslate = text => {
   };
   return new Promise((resolve, reject) => {
     languageTranslator.translate(params, function(err, translation) {
-      console.log(translation)
+      // console.log(translation.translations[0].translation)
       if (err) {
         reject(err);
         return;
       } else {
-        // const parsedTranslation = JSON.parse(translation.translations[0].translation)
-        // console.log(typeof parsedTranslation)
-        resolve(translation.translations[0]);
+        resolve(translation);
       }
     });
   });
