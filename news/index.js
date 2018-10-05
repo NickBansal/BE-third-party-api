@@ -8,19 +8,14 @@ const spanishNews = () => {
   return newsapi.v2
     .topHeadlines({
       // sources: 'bbc-news,the-verge',
-      q: 'Spain',
+      q: 'Arsenal',
       // category: 'Spanish',
       language: 'en'
       // country: 'us'
     })
     .then(response => {
-      return generateTranslate(JSON.stringify(response.articles));
+      return generateTranslate(response.articles[0].content);
     })
-    .then(translate => {
-      console.log(translate);
-      return translate;
-    })
-    .catch(console.log);
 };
 
 module.exports = spanishNews;

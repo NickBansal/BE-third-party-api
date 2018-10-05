@@ -1,0 +1,56 @@
+{ status: 'ok',
+  totalResults: 4,
+  articles:
+   [ { source: [Object],
+       author: null,
+       title:
+        'Spanish Coastal City Valencia to Create a Smart Port With Blockchain Tech',
+       description:
+        'The city of Valencia, Spain is planning a smart port based on blockchain technology according to an announcement made at the Dutch port of Rotterdam during them Smart Ports & Supply Chain Technologies conference on Wednesday 03 October.',
+       url:
+        'https://www.ccn.com/spanish-coastal-city-valencia-to-create-a-smart-port-with-blockchain-tech/',
+       urlToImage:
+        'https://www.ccn.com/wp-content/uploads/2018/10/Valencia-Spain.jpg',
+       publishedAt: '2018-10-05T08:52:54Z',
+       content:
+        'The city of Valencia, Spain is planning a smart port based on blockchain technology according to an announcement made at the Dutch port of Rotterdam during them Smart Ports &amp; Supply Chain Technologies conference on Wednesday 03 October. Jose Garcia de la … [+2620 chars]' },
+     { source: [Object],
+       author: 'FourFourTwo',
+       title: 'Bale backed for Wales captaincy by Giggs',
+       description:
+        'Ashley Williams is expected to resume his captaincy duties against Spain but Ryan Giggs backed Gareth Bale as a future skipper.',
+       url:
+        'http://www.fourfourtwo.com/news/bale-backed-wales-captaincy-giggs',
+       urlToImage:
+        'https://images.cdn.fourfourtwo.com/sites/fourfourtwo.com/files/garethbale-cropped_9xvtns5fjv4f1jlt7mn1k1qpl.jpg',
+       publishedAt: '2018-10-05T05:01:01Z',
+       content:
+        'Wales and Real Madrid star Gareth Bale has been tipped to become a future captain of the country by manager Ryan Giggs. Bale wore the captain\'s armband for the first time in Wales\' Nations League defeat against Denmark after Ashley Williams was rested last mo… [+1369 chars]' },
+     { source: [Object],
+       author: 'Madeline Roth',
+       title:
+        'Camila Cabello, Ariana Grande, Post Malone Lead The 2018 MTV EMA Nominations',
+       description: 'The star-studded show hits Bilbao, Spain on November 4',
+       url:
+        'http://www.mtv.com/news/3100937/mtv-ema-nominations-2018-camila-cabello/',
+       urlToImage:
+        'https://mtv.mtvnimages.com/uri/mgid:ao:image:mtv.com:660774?quality=0.8&format=jpg&width=1440&height=810&.jpg',
+       publishedAt: '2018-10-04T14:51:56Z',
+       content:
+        'The MTV EMA will never be the same! After a whirlwind year during which she notched a No. 1 album and won the top two prizes at the VMAs Camila Cabello leads the pack of nominees at this year\'s star-studded awards show. Cabello snagged six nominations, includ… [+2674 chars]' },
+     { source: [Object],
+       author: 'talkSPORT',
+       title:
+        'James Maddison, Mason Mount and Jadon Sancho earn debut call-ups as Gareth Southgate names England squad for',
+       description:
+        'The Three Lions face two away trips in the UEFA Nations League, hoping to recover having lost their tournament opener to Spain',
+       url:
+        'https://talksport.com/football/429645/england-squad-spain-croatia-gareth-southgate-mason-mount-james-maddison/',
+       urlToImage:
+        'https://talksport.com/wp-content/uploads/sites/5/2018/10/souhthgatemountmaddisonsnacho.jpg?strip=all&quality=100&w=1024&h=681&crop=1',
+       publishedAt: '2018-10-04T14:34:05Z',
+       content:
+        'Gareth Southgate has named his latest England squad for the Nations League matches vs Croatia and Spain, with James Maddison, Mason Mount and Jadon Sancho all earning their debut call-ups. Maddison, the Leicester midfielder, has been rewarded for his fine sta… [+2099 chars]' } ] }
+TypeError: res.json is not a function
+    at newsapi.v2.topHeadlines.then.res (/Users/admin/Desktop/Northcoders/BE-third-party-api/news/index.js:18:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
