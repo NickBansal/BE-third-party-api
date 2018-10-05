@@ -14,19 +14,23 @@
 </head>
 
 <body>
-    <h1><em>Noticias aleatorias españolas (Random Spanish News)</em></h1>
+    <h1><em>Noticias aleatorias españolas (Random Spanish)</em></h1>
+
+    <% news.forEach(element => { %>
     <div class="SpanishNews">
         <h1>
-            <%= news.title %>
+            <%= element.title %>
         </h1>
-        <img src="<%= news.urlImage %>" alt="harry boy kane">
+        <img src="<%= element.urlImage %>" alt="harry boy kane">
         <p>
-            <%= news.description %>
+            <%= element.description %>
         </p>
         <p>
-            <%= news.content %>
+            <%= element.content %>
         </p>
     </div>
+    <% }) %>
+
 </body>
 
-</html>ß
+</html>
