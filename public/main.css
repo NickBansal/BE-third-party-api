@@ -1,0 +1,23 @@
+body {
+  background: rgb(red, green, blue);
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SpanishNews {
+  margin-top: 25px;
+  padding: 15px;
+  border: 2px solid black;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.SpanishNews img {
+  width: 80%;
+  height: auto;
+}
